@@ -20,7 +20,6 @@ If you allow auto-merge for pull requests in your repository, people with write 
 ## Managing auto-merge
 
 
-{% data reusables.repositories.sidebar-settings %}
 1. Under "Merge button", select or deselect **Allow auto-merge**.
   ![Checkbox to allow or disallow auto-merge](/assets/images/help/pull_requests/allow-auto-merge-checkbox.png)
 Reference: https://github.com/github/docs/edit/main/content/github/administering-a-repository/configuring-pull-request-merges/managing-auto-merge-for-pull-requests-in-your-repository.md
