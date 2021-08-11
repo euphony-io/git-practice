@@ -19,7 +19,6 @@ If you allow auto-merge for pull requests in your repository, people with write 
 
 ## Managing auto-merge
 
-{% data reusables.pull_requests.auto-merge-requires-branch-protection %}
 
 {% data reusables.repositories.navigate-to-repo %}
 {% data reusables.repositories.sidebar-settings %}
