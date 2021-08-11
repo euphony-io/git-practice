@@ -5,7 +5,7 @@ all content is taken from https://github.com/github/docs.
 
 ## GIT PRACTICE
 ### 1. Pull Request without conflict  
-[modify_about_merge] -> [master]  
+[modify_about_merge] -> [pr_branch]  
 
 ### 2. Pull Request with conflict (resolve with web editor)  
 [conflict_branch] -> [modify_about_merge]  
@@ -22,10 +22,11 @@ $ git push origin conflict_branch2
 ```
 
 ### 4. Sqaush practice (with web editor)  
-[squash_branch] -> [master]  
+[squash_branch] -> [pr_branch]  
 
 ### 5. Squash practice (with command line)  
-[squash_branch2] -> [master]  
+[squash_branch2] -> [pr_branch]  
+
 ![image](https://user-images.githubusercontent.com/10149398/128968477-0f2bdc45-b879-43ee-ac28-2f07f4797fb0.png)
 ```
 $ git checkout -b squash_branch2 origin/squash_branch2
