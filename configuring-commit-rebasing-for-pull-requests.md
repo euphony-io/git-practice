@@ -12,10 +12,7 @@ topics:
   - Repositories
 shortTitle: Configure commit rebasing
 ---
-{% data reusables.pull_requests.configure_pull_request_merges_intro %}
 
-{% data reusables.repositories.navigate-to-repo %}
-{% data reusables.repositories.sidebar-settings %}
 3. Under "Merge button", select **Allow rebase merging**. This allows contributors to merge a pull request by rebasing their individual commits onto the base branch. If you also select another merge method, collaborators will be able to choose the type of merge commit when merging a pull request. {% data reusables.repositories.squash-and-rebase-linear-commit-hisitory %}
 ![Pull request rebased commits](/assets/images/help/repository/pr-merge-rebase.png)
 Reference: https://github.com/github/docs/blob/main/content/github/administering-a-repository/configuring-pull-request-merges/configuring-commit-rebasing-for-pull-requests.md
