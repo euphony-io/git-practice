@@ -21,7 +21,7 @@ The default merge method creates a merge commit. You can prevent anyone from pus
 
 ## Squashing your merge commits
 
-{% data reusables.pull_requests.squash_and_merge_summary %}
+{% data reusables.pull_requests.squash_and_merge_summary %} **conflict!!!!!!!!!!**
 
 Before enabling squashing commits, consider these disadvantages:
 - You lose information about when specific changes were originally made and who authored the squashed commits.
