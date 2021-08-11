@@ -32,7 +32,7 @@ For more information, see "[Configuring commit squashing for pull requests](/art
 
 ## Rebasing and merging your commits
 
-{% data reusables.pull_requests.rebase_and_merge_summary %}
+{% data reusables.pull_requests.rebase_and_merge_summary %} **conflict!!!!**
 
 Before enabling commit rebasing, consider these disadvantages:
 - Repository contributors may have to rebase on the command line, resolve any conflicts, and force push their changes to the pull request's topic branch (or remote head branch) before they can use the **rebase and merge** option on {% data variables.product.product_location %}. Force pushing must be done carefully so contributors don't overwrite work that others have based their work on. To learn more about when the **Rebase and merge** option is disabled on {% data variables.product.product_location %} and the workflow to re-enable it, see "[About pull request merges](/articles/about-pull-request-merges/#rebase-and-merge-your-pull-request-commits)."
