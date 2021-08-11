@@ -14,8 +14,6 @@ shortTitle: Automatic branch deletion
 ---
 Anyone with admin permissions to a repository can enable or disable the automatic deletion of branches.
 
-{% data reusables.repositories.navigate-to-repo %}
-{% data reusables.repositories.sidebar-settings %}
 3. Under "Merge button", select or unselect **Automatically delete head branches**.
   ![Checkbox to enable or disable automatic deletion of branches](/assets/images/help/repository/automatically-delete-branches.png)
 
