@@ -12,16 +12,12 @@ topics:
   - Repositories
 shortTitle: Merge methods
 ---
-{% data reusables.pull_requests.configure_pull_request_merges_intro %} You can enforce one type of merge method, such as commit squashing or rebasing, by only enabling the desired method for your repository.
 
-{% data reusables.pull_requests.default_merge_option %}
+You can enforce one type of merge method, such as commit squashing or rebasing, by only enabling the desired method for your repository.
 
-{% ifversion fpt or ghae or ghes %}
-The default merge method creates a merge commit. You can prevent anyone from pushing merge commits to a protected branch by enforcing a linear commit history. For more information, see "[About protected branches](/github/administering-a-repository/about-protected-branches#require-linear-history)."{% endif %}
+The default merge method creates a merge commit. You can prevent anyone from pushing merge commits to a protected branch by enforcing a linear commit history. For more information, see "[About protected branches](/github/administering-a-repository/about-protected-branches#require-linear-history).
 
 ## Squashing your merge commits
-
-{% data reusables.pull_requests.squash_and_merge_summary %}
 
 Before enabling squashing commits, consider these disadvantages:
 - You lose information about when specific changes were originally made and who authored the squashed commits.
@@ -32,10 +28,8 @@ For more information, see "[Configuring commit squashing for pull requests](/art
 
 ## Rebasing and merging your commits
 
-{% data reusables.pull_requests.rebase_and_merge_summary %}
-
 Before enabling commit rebasing, consider these disadvantages:
-- Repository contributors may have to rebase on the command line, resolve any conflicts, and force push their changes to the pull request's topic branch (or remote head branch) before they can use the **rebase and merge** option on {% data variables.product.product_location %}. Force pushing must be done carefully so contributors don't overwrite work that others have based their work on. To learn more about when the **Rebase and merge** option is disabled on {% data variables.product.product_location %} and the workflow to re-enable it, see "[About pull request merges](/articles/about-pull-request-merges/#rebase-and-merge-your-pull-request-commits)."
+- Repository contributors may have to rebase on the command line, resolve any conflicts, and force push their changes to the pull request's topic branch (or remote head branch) before they can use the **rebase and merge** option on. Force pushing must be done carefully so contributors don't overwrite work that others have based their work on. To learn more about when the **Rebase and merge** option is disabled on and the workflow to re-enable it, see "[About pull request merges](/articles/about-pull-request-merges/#rebase-and-merge-your-pull-request-commits)."
 
 For more information, see "[Configuring commit rebasing for pull requests](/articles/configuring-commit-rebasing-for-pull-requests)."
 Reference: https://github.com/github/docs/blob/main/content/github/administering-a-repository/configuring-pull-request-merges/about-merge-methods-on-github.md
