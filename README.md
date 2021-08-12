@@ -1,16 +1,26 @@
 # git-practice
-git command practice repository
-
-all content is taken from https://github.com/github/docs.
+Git Practice repository  
+All content is taken from https://github.com/github/docs.  
+Fork this repository and practice!  
 
 ## GIT PRACTICE
 ### 1. Pull Request without conflict  
 [modify_about_merge] -> [pr_branch]  
 
-### 2. Pull Request with conflict (resolve with web editor)  
+### 2. Link issue within a commit message 
+- [X] Settings - Features - Issues
+- Make "New issue" at Issues
+```
+$ git checkout -b issue_test
+$ git add .
+$ git commit -m "test issue #1"
+$ git push origin issue_test
+```
+
+### 3. Pull Request with conflict (resolve with web editor)  
 [conflict_branch] -> [modify_about_merge]  
 
-### 3. Pull Request with conflict (resolve with command line)  
+### 4. Pull Request with conflict (resolve with command line)  
 [conflict_branch2] -> [modify_about_merge]  
 ```
 $ git checkout -b conflict_branch2 origin/conflict_branch2
@@ -21,10 +31,10 @@ $ git commit -m "conflict resolve"
 $ git push origin conflict_branch2
 ```
 
-### 4. Sqaush practice (with web editor)  
+### 5. Sqaush practice (with web editor)  
 [squash_branch] -> [pr_branch]  
 
-### 5. Squash practice (with command line)  
+### 6. Squash practice (with command line)  
 [squash_branch2] -> [pr_branch]  
 
 ![image](https://user-images.githubusercontent.com/10149398/128968477-0f2bdc45-b879-43ee-ac28-2f07f4797fb0.png)
@@ -44,7 +54,7 @@ f20a4725e5374c6d7cb6b4a50d97d008fdd98aca Initial commit
 $ git push -f origin squash_branch2
 ```
 
-### 6. Commit amend practice
+### 7. Commit amend practice
 ```
 $ git checkout -b amend_branch
 # modify configuring-commit-rebasing-for-pull-requests.md file
