@@ -77,3 +77,9 @@ $ git pull --all
 ```
 $ git branch
 ```
+
+### 3. Check remote repository
+```
+$ git remote -v
+```
+
