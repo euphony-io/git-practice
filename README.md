@@ -74,7 +74,12 @@ $ git fetch --all
 $ git pull --all
 ```
 
-### 1. Check branch
+### 2. Check branch
 ```
 $ git branch
+```
+
+### 3. Check remote repository
+```
+$ git remote -v
 ```
