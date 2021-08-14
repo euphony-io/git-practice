@@ -73,3 +73,8 @@ $ git branch -r | grep -v '\->' | while read remote; do git branch --track "${re
 $ git fetch --all
 $ git pull --all
 ```
+
+### 1. Check branch
+```
+$ git branch
+```
