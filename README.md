@@ -74,4 +74,6 @@ $ git fetch --all
 $ git pull --all
 ```
 ### 2. Check branch
-$git branch
+```
+$ git branch
+```
