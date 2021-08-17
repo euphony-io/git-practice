@@ -5,6 +5,7 @@ Fork this repository and practice!
 
 practicing
 addd issue number #1
+add commit
 
 ## GIT PRACTICE
 ### 1. Pull Request without conflict  
