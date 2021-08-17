@@ -4,7 +4,7 @@ All content is taken from https://github.com/github/docs.
 Fork this repository and practice!  
 
 practicing
-add issue number #1
+addd issue number #1
 
 ## GIT PRACTICE
 ### 1. Pull Request without conflict  
