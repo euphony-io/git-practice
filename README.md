@@ -65,11 +65,3 @@ $ git add .
 $ git commit --amend
 $ git push origin amend_branch
 ```
-
-## Useful git commands  
-### 1. Git pull all from remote  
-```
-$ git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
-$ git fetch --all
-$ git pull --all
-```
