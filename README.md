@@ -3,7 +3,7 @@ Git Practice repository
 All content is taken from https://github.com/github/docs.  
 Fork this repository and practice!  
 
-## GIT PRACTICE
+## GIT CHAE
 ### 1. Pull Request without conflict  
 [modify_about_merge] -> [pr_branch]  
 
